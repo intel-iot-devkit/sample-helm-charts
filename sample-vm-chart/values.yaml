@@ -1,0 +1,24 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright (c) 2021 <Company Name>
+
+PersistentVolume:
+  rootfs:
+    size: "15Gi"
+    path: "/var/vd/vol0"
+    imgSrc: "https://cloud.centos.org/centos/7/images/CentOS-7-x86_64-GenericCloud-2003.qcow2"
+  cacheDisks:
+    cache0:
+      size: "15Gi"
+      path: "/var/vd/vol1"
+
+cdnVM:
+  # numCores default 4
+  numCores: 4
+
+  # memory default 4096M
+  memory: 4096M
+
+cdnService:
+  nodePort: 30080
+
+

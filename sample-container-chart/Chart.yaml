@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright (c) 2021 <Company name>
+
+apiVersion: v1
+appVersion: "1.16.0"
+description: A Helm chart for Kubernetes
+keywords:
+- web server
+name: sample-container-chart
+type: application
+version: 0.1.0
